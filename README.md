@@ -5,7 +5,7 @@ Heli Telem. Display - Full Screen Telemetry Display for Helicopters
 
 By Nick Pedersen (username "nickthenorse" on RCGroups.com and HeliFreak.com).
 
-	v1.0 - 2021-08-14 - Initial release
+	v1.00 - 2021-08-14 - Initial release
 	v1.01 - 2021-08-15 - Bug fix
 
 Thanks for trying out my Jeti Lua app! This is my attempt at learning Lua as well as 
