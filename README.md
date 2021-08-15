@@ -21,7 +21,8 @@ current and capacity sensing from the ESC.
 
 ![Screenshot menu - Example of My Setup](screenshot_menu_example_setup.png?raw=true "Screenshot Menu - Example of my Setup")
 
-
+ <img src="/screenshot_main_window.png" width="100" />
+ 
 It is a full screen telemetry window, and is hardcoded to display:
 
 	- A flight timer (counts upwards only)
