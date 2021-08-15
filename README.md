@@ -59,7 +59,8 @@ It is a full screen telemetry window, and is hardcoded to display:
 	
 	- Allows user to specify number of samples to average voltage readings.
 	
-	- The app will detect when a new lipo is plugged in and automatically reset the flight timer and telemetry values.
+	- The app will detect when a new lipo is plugged in and automatically reset the flight timer and telemetry values,
+	  though this can also be done manually by defining the appropriate switches in the menu.
 	  
 This is purely for my own hobbyist and non-commercial use.	No liability or responsibility 
 is assumed for your own use! Feel free to use this code in any way you see fit to modify 
