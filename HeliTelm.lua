@@ -4,7 +4,8 @@
 	
     By Nick Pedersen (username "nickthenorse" on RCGroups.com and HeliFreak.com).
 	
-	v1.0 - 2021-08-14 - Initial release
+	v1.00 - 2021-08-14 - Initial release
+	v1.01 - 2021-08-15 - Bug fix
 	
 	Thanks for trying out my Jeti Lua app! This is my attempt at learning Lua as well as 
 	putting together an app for how I specifically wanted to display the telemetry for my
@@ -2164,5 +2165,5 @@ end
 -- Application interface
 --------------------------------------------------------------------------------------------
 collectgarbage()
-return {init = init, loop = loop, author = "Nick Pedersen", version = "1.0", name = "Heli Telem. Display"}
+return {init = init, loop = loop, author = "Nick Pedersen", version = "1.01", name = "Heli Telem. Display"}
 --------------------------------------------------------------------------------------------
