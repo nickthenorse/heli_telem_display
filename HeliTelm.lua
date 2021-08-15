@@ -2166,5 +2166,5 @@ end
 -- Application interface
 --------------------------------------------------------------------------------------------
 collectgarbage()
-return {init = init, loop = loop, author = "Nick Pedersen", version = "1.01", name = "Heli Telem. Display"}
+return {init = init, loop = loop, author = "Nick Pedersen", version = "1.02", name = "Heli Telem. Display"}
 --------------------------------------------------------------------------------------------
