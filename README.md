@@ -7,6 +7,7 @@ By Nick Pedersen (username "nickthenorse" on RCGroups.com and HeliFreak.com).
 
 	v1.00 - 2021-08-14 - Initial release
 	v1.01 - 2021-08-15 - Bug fix
+	v1.02 - 2021-08-15 - Bug fix
 
 Thanks for trying out my Jeti Lua app! This is my attempt at learning Lua as well as 
 putting together an app for how I specifically wanted to display the telemetry for my
