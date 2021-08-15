@@ -15,7 +15,7 @@ current and capacity sensing from the ESC.
 
 <img src="https://raw.githubusercontent.com/nickthenorse/heli_telem_display/main/screenshot_main_window.png?raw=true" />
 
-![alt](https://raw.githubusercontent.com/nickthenorse/heli_telem_display/main/screenshot_main_window.png)
+[[https://raw.githubusercontent.com/nickthenorse/heli_telem_display/main/screenshot_main_window.png]]
 
 ![Screenshot Main Window](screenshot_main_window.png?raw=true "Screenshot Main Window")
 
