@@ -6,6 +6,7 @@
 	
 	v1.00 - 2021-08-14 - Initial release
 	v1.01 - 2021-08-15 - Bug fix
+	v1.02 - 2021-08-15 - Bug fix
 	
 	Thanks for trying out my Jeti Lua app! This is my attempt at learning Lua as well as 
 	putting together an app for how I specifically wanted to display the telemetry for my
@@ -2043,7 +2044,7 @@ local function printTelemetryWindow()
 	
 	lcd.setColor(base_r,base_g,base_b)
 	
-	if (telemetryActive == true or resetTelemetryMinMax == 1 and estimateUsedLipoBoolean == true and voltagePerCellAtStartup < (voltageThresholdUsedLipo/100)) then
+	if (telemetryActive == true and estimateUsedLipoBoolean == true and voltagePerCellAtStartup < (voltageThresholdUsedLipo/100)) then
 		lcd.setColor(red_r,red_g,red_b)
 		lcd.drawText(panel_central_X + (panel_central_Width - lcd.getTextWidth(FONT_MINI,"Lipo not"))*0.5,panel_central_Y+batterySymbolY+10,"Lipo not",FONT_MINI)
 		lcd.drawText(panel_central_X + (panel_central_Width - lcd.getTextWidth(FONT_MINI,"fully"))*0.5,panel_central_Y+batterySymbolY+22,"fully",FONT_MINI)
@@ -2102,7 +2103,7 @@ local function init(code)
 	lipoCellCount = system.pLoad("lipoCellCount",1)
 	lipoCapacity = system.pLoad("lipoCapacity",0)
 	correctionFactor = system.pLoad("correctionFactor",1000)
-	timeDelay = system.pLoad("timeDelay",1)
+	timeDelay = system.pLoad("timeDelay",10)
 	averagingWindowCellVoltage = system.pLoad("averagingWindowCellVoltage",5)
 	averagingWindowRxVoltage = system.pLoad("averagingWindowRxVoltage",5)
 	alarmCapacityLevelOne = system.pLoad("alarmCapacityLevelOne",80)
