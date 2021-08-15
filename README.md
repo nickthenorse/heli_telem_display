@@ -24,18 +24,19 @@ current and capacity sensing from the ESC.
  
 It is a full screen telemetry window, and is hardcoded to display:
 
-	- A flight timer (counts upwards only)
+	- A flight timer (counts upwards only).
 	
 	- Rx telemetry: Instantaneous and mininum values for Q, A1, A2, and Rx voltage 
 	  (max/min recorded for voltage). Signal levels also shown graphically.
 	  
 	- Maximum recorded FBL rotation rates for the elevator, aileron and rudder channels 
-	  for the flight
+	  for the flight.
 	  
-	- Headspeed (instantaneous and maximum)
+	- Headspeed (instantaneous and maximum).
 	
 	- Lipo capacity used, in both percentage and in mAh. Capacity used also shown graphically
-	  with a battery symbol.
+	  with a battery symbol. Total flight capacity of the lipo is assumed to be 80% of the 
+	  nominal lipo capacity (ie, 80% of a 3700 mAh lipo = 2960 mAh).
 	  
 	- Custom selectable voice file/alarm levels for battery capacity used during the flight.
 	
