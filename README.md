@@ -13,7 +13,7 @@ FBL-based helicopters. It is based on my use of the Brain2 FBL, but will work we
 any modern FBL controller. The one caveat is that it is very much dependent on having
 current and capacity sensing from the ESC.
 
-![Screenshot Main Window](screenshot_main_window.png?raw=true "Screenshot Main Window")
+![Screenshot Main Window](screenshot_main_window.png "Screenshot Main Window")
 
 ![Screenshot Main Window, not fully charged lipo detected at startup](screenshot_not_fully_charged_lipo_at_startup.png?raw=true "Screenshot Main Window, not fully charged lipo detected at startup")
 
@@ -21,7 +21,6 @@ current and capacity sensing from the ESC.
 
 ![Screenshot menu - Example of My Setup](screenshot_menu_example_setup.png?raw=true "Screenshot Menu - Example of my Setup")
 
- <img src="/screenshot_main_window.png" width="100" />
  
 It is a full screen telemetry window, and is hardcoded to display:
 
