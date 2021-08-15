@@ -40,6 +40,7 @@ It is a full screen telemetry window, and is hardcoded to display:
 	- Main flight pack voltage per cell (just the total lipo voltage divided by the
 	  number of cells), as well as the min and max values recorded during the flight.
 	  Min and max voltages shown graphically.
+        - Custom defineable voltage correction factor/multiplier - most ESCs do not allow you to tweak the voltage reading in case it is a few percent inaccurate.
 	- This main flight pack voltage per cell is also recorded as a custom variable in the
 	  Jeti flight logs.
 	- Allows user to define a time delay to allow for FBL initialisation. Typically need ca. 10 seconds.
