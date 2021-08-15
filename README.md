@@ -13,6 +13,8 @@ FBL-based helicopters. It is based on my use of the Brain2 FBL, but will work we
 any modern FBL controller. The one caveat is that it is very much dependent on having
 current and capacity sensing from the ESC.
 
+![Screenshot main window](screenshot_main_window.png?raw=true "Main Window")
+
 It is a full screen telemetry window, and is hardcoded to display:
 
 	- A flight timer (counts upwards only)
