@@ -42,6 +42,8 @@ It is a full screen telemetry window, and is hardcoded to display:
 	  Min and max voltages shown graphically.
 	- This main flight pack voltage per cell is also recorded as a custom variable in the
 	  Jeti flight logs.
+	- Allows user to define a time delay to allow for FBL initialisation. Typically need ca. 10 seconds.
+	- Allows user to specify number of samples to average voltage readings.
 	  
 This is purely for my own hobbyist and non-commercial use.	No liability or responsibility 
 is assumed for your own use! Feel free to use this code in any way you see fit to modify 
