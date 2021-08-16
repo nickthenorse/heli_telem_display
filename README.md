@@ -9,7 +9,7 @@ By Nick Pedersen (username "nickthenorse" on RCGroups.com and HeliFreak.com).
 	v1.01 - 2021-08-15 - Bug fix
 	v1.02 - 2021-08-15 - Bug fix
 	
-Instructions: download the file HeliTelm.lua and copy it in the /Apps folder on your Jeti transmitter. Then install via "User Applications" on your tx.
+Instructions: download the file HeliTelm.lua and copy it to the /Apps folder on your Jeti transmitter. Then install via "User Applications" submenu.
 
 Thanks for trying out my Jeti Lua app! This is my attempt at learning Lua as well as 
 putting together an app for how I specifically wanted to display the telemetry for my
