@@ -2,7 +2,7 @@
 
 Heli Telem. Display - Full Screen Telemetry Display for Electric Helicopters - JETI
 
-Compatible with DS-12, DS-16, DS-24, DS-14 II, DS-16 II and corresponding DC models.
+Compatible with DS-12, DS-24, DS-14 II, DS-16 II and corresponding DC models.
 
 By Nick Pedersen (username "nickthenorse" on RCGroups.com and HeliFreak.com).
 
